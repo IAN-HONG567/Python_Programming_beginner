@@ -1,0 +1,19 @@
+def add(x, y):
+    return x + y
+def mul(x, y):
+    return x * y
+print("please let (x + y) > 15 and (x * y) < 60")
+x = int(input("please input num x:"))
+y = int(input("please input num y:"))
+print("x + y=", add(x, y))
+print("x * y=", mul(x, y))
+if (x + y) > 15:
+    print("big")
+if (x + y) < 15:
+    print("small")
+if (x + y) == 15:
+    print("big")
+if (x * y) > 60:
+    print("big")
+if (x * y) < 60:
+    print("small")
